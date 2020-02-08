@@ -1,0 +1,20 @@
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = False
+Option Compare Database
+Option Explicit
+
+
+Public Function losgehts() As Long
+
+    losgehts = 8991
+    Debug.Print "Action Los geht es"
+
+
+End Function
+
+
+Private Sub Class_Initialize()
+    Debug.Print "Action gestartet"
+End Sub

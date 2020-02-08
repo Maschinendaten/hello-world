@@ -6,3 +6,19 @@ Sub Test()
     MsgBox "Hello World4.0!"
     MsgBox "Hello World5.0!xx"
 End Sub
+
+
+
+Sub Superzahl()
+Dim oAction As Action
+
+Set oAction = New Action
+    
+
+With oAction
+    Debug.Print .losgehts
+
+End With
+
+
+End Sub
