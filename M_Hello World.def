@@ -1,0 +1,10 @@
+Option Compare Database
+Option Explicit
+
+Sub Test()
+    MsgBox "Hello World!"
+    MsgBox "Hello World4.0!"
+    MsgBox "Hello World5.0!xx"
+    
+    
+End Sub
