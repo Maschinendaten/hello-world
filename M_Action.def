@@ -17,8 +17,14 @@ End Function
 
 Private Sub Class_Initialize()
     Debug.Print "Action gestartet"
+<<<<<<< Updated upstream
 End Sub
 
 Private Sub Class_Terminate()
     MsgBox "Bin soeben gestorben"
+=======
+    
+    MsgBox ("ich bin eine MSG Box")
+    
+>>>>>>> Stashed changes
 End Sub
